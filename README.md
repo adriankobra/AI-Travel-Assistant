@@ -54,7 +54,7 @@ ORS_API_KEY=your_openrouteservice_api_key
 `GROQ_API_KEY` is needed for AI generation, and `GEOAPIFY_API_KEY` is needed for real-place plans. `ORS_API_KEY` enables verified supported routes; without it, route information is unavailable and routing-dependent planning is limited. `GROQ_MODEL` is an optional model override (see `.env.example`). Never commit real keys.
 
 ```powershell
-python -m streamlit run src/main.py
+..venv\Scripts\python.exe -m streamlit run src/main.py
 ```
 
 Open the local URL shown by Streamlit, usually `http://localhost:8501`. Complete the questionnaire, generate destination options, and choose **View full plan** to build the detailed itinerary.
